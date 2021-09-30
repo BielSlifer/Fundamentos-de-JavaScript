@@ -22,7 +22,7 @@ console.log(valores);
 
 //"array.length" exibe quantos elementos há dentro do array.
 
-/* um array pode comportar vários tipos de elementos,
+/*um array pode comportar vários tipos de elementos,
 mas o ideal é ter um array pra cada tipo de elemento*/
 valores.push({id: 3}, null, false, 'teste');
 console.log(valores);
