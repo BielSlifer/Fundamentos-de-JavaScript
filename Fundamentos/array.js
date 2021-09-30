@@ -12,6 +12,26 @@ você pode considerar usar arrays tipados.*/
 
 /*você pode criar arrays de forma literal declarando
 colchetes separando os valores por vírgula.*/
-const valores = [ 7.7, 8.9, 6.3, 9.2 ] 
+const valores = [7.7, 8.9, 6.3, 9.2] 
 console.log(valores[0], valores[3]); //exibe os valores da primeira e quarta posição.
+console.log(valores[4]); /*em JavaScript não retorna erro chamar um indíce inexistente, ele 
+marca como Undefined.*/
 
+valores[4] = 10
+console.log(valores);
+
+//"array.length" exibe quantos elementos há dentro do array.
+
+/* um array pode comportar vários tipos de elementos,
+mas o ideal é ter um array pra cada tipo de elemento*/
+valores.push({id: 3}, null, false, 'teste');
+console.log(valores);
+
+/*O método pop() remove o último elemento de um array e retorna aquele elemento.*/
+console.log(valores.pop());
+
+//"delete" exclui o indíce definido
+delete valores[0];
+
+//em JS Array é um tipo object
+console.log(typeof valores);
