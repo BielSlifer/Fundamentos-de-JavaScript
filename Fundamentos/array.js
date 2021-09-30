@@ -7,3 +7,4 @@ De uma maneira geral, essas são características convenientes,
 mas, se esses recursos não são desejáveis para o seu caso em particular, 
 você pode considerar usar arrays tipados.*/
 
+//Array permitem você agrupar elementos de forma linear
