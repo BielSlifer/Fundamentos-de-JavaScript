@@ -7,4 +7,11 @@ De uma maneira geral, essas são características convenientes,
 mas, se esses recursos não são desejáveis para o seu caso em particular, 
 você pode considerar usar arrays tipados.*/
 
-//Array permitem você agrupar elementos de forma linear
+//Array permitem você agrupar elementos de forma linear.
+//Os elementos de um array são acessados por indíces a partir do indíce0.
+
+/*você pode criar arrays de forma literal declarando
+colchetes separando os valores por vírgula.*/
+const valores = [ 7.7, 8.9, 6.3, 9.2 ] 
+console.log(valores[0], valores[3]); //exibe os valores da primeira e quarta posição.
+
